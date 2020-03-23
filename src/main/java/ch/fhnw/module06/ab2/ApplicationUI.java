@@ -32,10 +32,7 @@ public class ApplicationUI extends VBox {
 	private void layoutControls() {
 		this.getChildren().addAll(label, textfield, textarea, button);
 
-		setMargin(label, new Insets(10, 10, 0, 10));
-		setMargin(textfield, new Insets(0, 10, 0, 10));
-		setMargin(textarea, new Insets(0, 10, 0, 10));
-		setMargin(button, new Insets(0, 10, 10, 10));
+		setPadding(new Insets(10));
 
 	}
 }
