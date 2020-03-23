@@ -18,6 +18,6 @@ public class ApplicationUI extends StackPane {
 	}
 
 	private void layoutControls() {
-		getChildren().add(button);
+		this.getChildren().add(button);
 	}
 }
